@@ -21,7 +21,10 @@ class News extends Component {
             className="news-image"
           />
           <div className="news-content">{data.content}</div>
-          <p>Link to complete article : </p> <a href={data.url}>{data.url}</a>
+          <p>
+            <b>Link to complete article : </b>
+          </p>{" "}
+          <a href={data.url}>{data.url}</a>
         </div>
         <div className="news-footer">
           <div className="news-footer-content">

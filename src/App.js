@@ -1,9 +1,9 @@
 import React from "react";
 import Sidebar from "./components/SideBar";
 import MainScreen from "./components/MainScreen";
+import "./App.css";
 // import { createStore } from "redux";
 // import newsApp from "./reducer";
-import "./App.css";
 // import {
 //   SELECT_CATEGORY,
 //   SELECT_COUNTRY,
