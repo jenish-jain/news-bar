@@ -1,8 +1,9 @@
-import { SELECT_CATEGORY, SELECT_COUNTRY } from "./actions";
+import { SELECT_CATEGORY, SELECT_COUNTRY, UPDATE_DATA } from "./actions";
 
 const initialState = {
   category: "business",
-  country: "in"
+  country: "in",
+  feeds: []
 };
 
 function newsApp(state = initialState, action) {
@@ -14,6 +15,10 @@ function newsApp(state = initialState, action) {
     case SELECT_COUNTRY:
       return Object.assign({}, state, {
         country: action.country
+      });
+    case UPDATE_DATA:
+      return Object.assign({}, state, {
+        feeds: action.feeds
       });
 
     default:
