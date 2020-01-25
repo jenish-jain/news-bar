@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.news {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  font-family: "Raleway", sans-serif;
+  width: 40vw;
+}
+
+.news-header {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 3px;
+}
