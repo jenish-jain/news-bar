@@ -26,6 +26,7 @@ class NewsFeeds extends Component {
     return (
       <div className="news-feeds">
         <News data={this.state.data} />
+        <News data={this.state.data} />
       </div>
     );
   }

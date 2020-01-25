@@ -2,3 +2,11 @@
   margin: 0;
   padding: 0;
 }
+
+.news-feeds {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}

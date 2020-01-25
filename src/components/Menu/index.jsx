@@ -25,7 +25,11 @@ class Menu extends Component {
         >
           {listName} {clicked ? <FaAngleDoubleUp /> : <FaAngleDoubleDown />}
         </div>
-        {clicked ? listItem.map(item => <Selection name={item} />) : null}
+        {clicked
+          ? listItem.map(item => (
+              <Selection name={item} type={listName} key={item} />
+            ))
+          : null}
       </div>
     );
   }
